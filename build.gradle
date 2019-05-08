@@ -9,7 +9,10 @@
 plugins {
     // Apply the java-library plugin to add support for Java Library
     id 'java-library'
+    id "org.shipkit.java" version "2.2.5"
 }
+
+group = "com.li.techtalk"
 
 dependencies {
     // This dependency is exported to consumers, that is to say found on their compile classpath.
